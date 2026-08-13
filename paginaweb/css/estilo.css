@@ -1,0 +1,81 @@
+/*el display flex hace el div como transparente para que puedan 
+estar el tuituo y el escudo en la mismafia*/
+
+
+.titulo {
+  display: flex;
+  align-items: center; 
+  width: 100%;      
+}
+
+.escudo {
+   width: 8%;
+  height: auto;
+}
+
+
+.nose {
+  display: flex;
+  background-color: lightblue;
+
+}
+
+
+
+.resumen {
+
+  margin: 0;
+  text-align: left;
+  width: 50%;
+
+
+}
+
+
+
+.imagenestadio {
+  width: 100%;
+  height: auto;
+  
+}
+
+
+
+.estadio {
+  width: 20%;
+  background-color: rgb(212, 149, 12);
+
+
+}
+
+.descripcion {
+  text-align: center;
+}
+  
+.yoo {
+  
+  text-align: right;
+  width: 80%
+  
+
+}
+
+.boton {
+  text-align: right;
+}
+
+.caja { 
+  margin-bottom: 60px; 
+}
+
+.pirovano {
+  width: 10%;
+  height: auto;
+  
+
+}
+
+.segundaparte {
+  
+
+}
