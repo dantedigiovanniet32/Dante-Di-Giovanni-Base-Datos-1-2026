@@ -1,0 +1,31 @@
+1. Verdadero ó Falso (Justificar las falsas)
+
+
+a. Puedo usar un Join adentro de una SubConsulta
+
+Verdadero
+Una subconsultaes lo mismo que otra consulta
+
+
+b. Un registro es un conjunto de información de varias entidades.
+
+Falso un resgistro en un conjunto de una sola entidad
+
+
+c. Un store procedure no tiene parámetros de entrada, únicamente de salida
+
+-
+
+
+d. Puedo utilizar más de 4 inner joins en una misma consulta.
+
+Verdadero
+
+
+2. Responder:
+a. ¿Qué es un Store Procedure?
+b. ¿ Puedo usar Limit 1 con Order by para reemplazar el MAX? Justificar en
+cualquiera de los 2 casos y dar un ejemplo.
+
+No porque el order by con limit 1 siempre va a devolver un resultado por mas que halla dos que tengan el mimo valor o cantidad
+Mientras que el MAX va a devolver todos los valores maxios, por mas que halla mas de uno
