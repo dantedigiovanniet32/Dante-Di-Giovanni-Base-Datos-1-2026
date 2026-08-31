@@ -1,0 +1,56 @@
+A) Verdadero o Falso (Justificar falsas)
+1. Las funciones de agregación como AVG() o COUNT() pueden usarse junto con
+GROUP BY.
+
+Verdadero
+
+
+2. Un INNER JOIN muestra todos los registros de ambas tablas, sin importar si
+coinciden o no.
+
+Falso, un inner join solo muestra cuando los resgistros coinciden en algo, generalmente el id
+
+
+3. El HAVING se utiliza para filtrar después de agrupar resultados.
+
+Verdadero
+
+
+4. Las subconsultas solo pueden estar en la cláusula WHERE.
+
+
+Falso, se pueden usar cualquier clausula, es como una consulta normal
+
+
+5. La normalización SIEMPRE busca eliminar tablas
+
+
+Falso, la normalizacion busca eliminar redundancias en el codigo y organizarlo
+
+
+
+
+
+
+B) Teoría:
+1. ¿Qué es una subconsulta? de un ejemplo
+
+Una subconsulta es una consulta adentro de otra
+
+2.¿ Para qué sirve o qué utilidad tiene un diccionario de datos?
+
+Sirve para poder obtener un dato adentro de la consulta y compararlo con otro para poder conseguir el objetivo de la consulta principal
+
+
+3. Definir qué es la normalización con tus palabras.
+
+
+
+La normalizacion es la organizacion de las tablas y campos que busca ordenar el der/codigo
+
+4. ¿Qué hace Group by? de un ejemplo con dibujos.
+
+
+El group by agrupa registros por su nombre, asi no te quedan repetidos muchas veces
+
+
