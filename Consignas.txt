@@ -1,0 +1,13 @@
+hacer una pagina html
+con todo lo que vimos sobre sql
+- Inicio
+- Diccionario de datos
+- Joins
+- DER
+- Normalizacion
+- Funciones de agregacion
+
+usar boostrap
+hacer un footer
+
+barra de navegacion superior
