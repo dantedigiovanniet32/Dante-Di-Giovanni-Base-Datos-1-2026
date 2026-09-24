@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="estilo.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SQL</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#sql">Inicio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#join">Joins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#der">DER</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#funciones">Funciones</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Diccionario</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#normalizacion">Normalizacion</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+<div id="sql" class="queessql">
+  <h2>¿Qué es SQL?</h2>   
+
+  <p>
+    El lenguaje de consulta estructurada (SQL) es un lenguaje de programación para almacenar y procesar información en una base de datos relacional. 
+    Una base de datos relacional almacena información en forma de tabla, con filas y columnas que representan diferentes atributos de datos y las diversas relaciones entre los valores de datos. 
+    Puede usar las instrucciones SQL para almacenar, actualizar, eliminar, buscar y recuperar información de la base de datos.  
+    También puede usar SQL para mantener y optimizar el rendimiento de la base de datos.
+  </p> 
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="join" class="contenedorjoins">
+ 
+
+  <div class="joins">
+    <h2>Joins</h2>
+ 
+    <p>
+      Lo que hace un join es básicamente unir datos de dos tablas usando una columna en común que generalmente es la primary key.
+    </p>
+
+    <h3>Inner join</h3>
+    <p>Devuelve solo las filas que coinciden en ambas tablas.</p>
+
+    <h3>Left join</h3>
+    <p>Devuelve todas las filas de la tabla izquierda + las que coinciden de la otra tabla.</p>
+
+
+    <h3>Right join</h3>
+    <p>Devuelve todas las filas de la tabla derecha + las que coinciden de la otra tabla.</p>  
+  </div>
+
+
+
+  <div class="imagenn">
+    <img src="imagen.png" alt="nose" class="consultasjoin">
+  </div>
+
+</div>
+
+
+
+  
+
+<div id="der" class="seccionder">
+  <h2>DER (Diagrama Entidad-Relación)</h2>
+
+  <p>
+    El modelo entidad relación (ERD o modelos ER) es una herramienta que permite representar de manera simplificada cómo personas, objetos o conceptos se relacionan entre sí. Se utiliza para exponer cómo se organiza la información en una base de datos.
+  </p>
+  
+  <p>
+    La creación del modelo entidad relación para su aplicación en el diseño de bases de datos se le atribuye a Peter Chen, profesor del MIT, quien publicó en 1976 el documento “Modelo entidad-relación: hacia una visión unificada de los datos”.
+  </p>
+
+  <p>El modelo entidad relación incluye tres elementos básicos:</p>
+
+  <h3>Entidades</h3>
+  <p>Son las personas, objetos o conceptos de los que trata una base de datos. Por ejemplo, en una base de datos de ventas de un negocio, las entidades podrían ser, entre otras, “Cliente”, “Producto”, “Factura” o “Dirección”.</p>
+ 
+  <h3>Atributos</h3>
+  <p>Describen las propiedades que posee cada entidad. En el ejemplo anterior, atributos de la entidad “Cliente” podrían ser “Nombre”, “Primer Apellido”, “Fecha de nacimiento”, etc.</p>
+
+  <h3>Relaciones</h3>
+  <p>Sirven para crear vínculos entre parejas de entidades. Siguiendo con el ejemplo, cada “Cliente” está vinculado a una “Dirección”, a uno o varios “Productos”, etc.</p>
+</div>
+
+
+
+ 
+
+
+
+
+<div id="funciones" class="funcionesagregacion"> 
+
+  <h2>Funciones de Agregación</h2>
+
+
+  <p>COUNT(): Cuenta el número de filas o de valores no nulos en una columna.</p>
+
+  <p>SUM(): Suma todos los valores numéricos de una columna.</p>
+  <p>AVG(): Calcula el promedio o media aritmética de los valores numéricos.</p>
+  <p>MIN(): Devuelve el valor menor o mínimo de una columna.</p>
+  <p>MAX(): Devuelve el valor mayor o máximo de una columna.</p>
+   
+
+
+</div>
+
+
+
+
+
+
+<div id="diccionario" class="cont-diccionario">  
+
+  
+  <img src="diccio.jpeg" alt="aaa" class="img-dic">
+
+  <div class="texto-dic">
+    <h2>Diccionario de Datos</h2>
+
+    <p> 
+      El diccionario de datos es un recurso centralizado que define y describe la estructura, el contenido y el significado de los datos de un sistema o base de datos. Actúa como una guía de referencia que documenta metadatos clave sobre conjuntos de datos, como nombres de campos, tipos de datos, valores permitidos y relaciones entre elementos. El objetivo principal de un diccionario de datos es garantizar la coherencia y la claridad en la forma de interpretar, compartir y utilizar los datos en los distintos equipos.
+    </p>
+
+    <p>
+      A medida que las organizaciones crecen y adoptan arquitecturas de datos más complejas, un diccionario de datos se convierte en una herramienta esencial para reducir la confusión, mejorar la comunicación y respaldar los esfuerzos de calidad de los datos. Juntas, estas herramientas favorecen la coherencia, la transparencia y la colaboración eficaz entre los equipos de datos y de negocio.
+    </p>
+  </div>
+ 
+</div>
+
+
+<!-- 
+
+
+<div id="normalizacion" class="div-norm">
+  <h2>Normalización</h2>
+
+  <p>
+    Es la técnica que sirve para organizar los datos dentro de las tablas de manera eficiente, reduciendo la redundancia (duplicidad de datos) y evitando problemas de inconsistencia al insertar, actualizar o eliminar registros.
+  </p>
+
+  <h3>1FN (Primera Forma Normal)</h3>  
+  <p>Eliminar grupos repetidos y asegurar atomicidad de los datos.</p>
+  
+  <h3>2FN (Segunda Forma Normal)</h3>
+  <p>Cumplir 1FN y que todos los atributos dependan totalmente de la clave primaria.</p>
+
+  <h3>3FN (Tercera Forma Normal)</h3>
+  <p>Cumplir 2FN y eliminar dependencias transitivas entre campos que no son claves.</p>
+</div>
+
+
+-->
+
+
+
+
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        1FN (Primera Forma Normal)
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <pre>
+          Para una tabla ser la primera forma normal, debe cumplir el siguiente criterio:
+          - una sola celda no debe contener más de un valor (atomicidad)
+          - debe haber una clave primaria para identificación
+          - no filas o columnas duplicadas
+          - cada columna debe tener solamente un valor por cada fila en la tabla
+        </pre>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        2FN (Segunda Forma Normal)
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <pre>
+          El 1NF solamente elimina los grupos repetitivos, no la redundancia. Por eso hay 2NF.
+          Una tabla se dice que está en 2NF si cumple el siguiente criterio:  
+          - ya está en 1NF
+          - no tiene dependencia parcial. Es decir, todos los atributos no claves son totalmente dependientes de la clave primaria
+
+        </pre>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        3FN (Tercera Forma Normal)
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <pre>
+          Cuando una tabla está en 2NF, elimina los grupos repetitivos y la redundancia, pero no elimina la dependencia parcial transitiva.
+          Esto significa que un atributo no principal (un atributo que no forma parte de la clave del candidato) es dependiente de otro atributo no principal. Esto es lo que la tercera forma normal (3NF) elimina.
+          Así que, para que una tabla esté en 3NF, debe:
+          - estar en 2NF
+          - no tiene dependencia parcial transitiva
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="fuentes"> 
+  <a href="https://docs.google.com/document/d/1hqnw74PXTlvnPBI07aLzpOzblcCYEfb7EjPAegWM-E4/edit?tab=t.0" class="enlace">Fuentes</a>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>   
