@@ -1,0 +1,169 @@
+
+/* modifica toda la pagina entera */
+body {
+  background-color: #E8F7EE; 
+  color: #3C362A;    
+  font-family: Arial, sans-serif; /* tipo letra */
+}
+
+/* todos los titulos h3 de color */
+h3 {
+  color: #663F46;
+  font-weight: 700; /* grosor de la letra */
+}
+h2 {
+  color: #3C362A;
+  font-weight: 700;
+}
+
+
+
+
+
+
+/* menu */
+
+.navbar {
+  background-color: #663F46 !important; /* para que predomine por encima del css de bootstrap */
+}
+
+.navbar-brand, .nav-link {
+  color: #E8F7EE !important;
+}
+
+
+
+
+/* secciones */
+
+.tramo {
+  padding: 50px 30px; /* marco interno de la caja, horizontal/vertical */
+}
+
+.gris {
+  background-color: #B8C4BB;
+}
+
+.tramo h2 {
+  margin-bottom: 15px; /* margen inferior */
+}
+
+.tramo h3 {
+  margin-top: 15px; /* mantenemos solo el margen, el color ya viene del h3 global */
+}
+
+
+
+
+
+
+/* inicio */
+
+.foto {
+  text-align: center;
+}
+
+.foto img {
+  max-width: 100%;    /* ancho maximo*/
+  border: 2px solid #663F46; /* BORDE    grosor, tipo, color */
+}
+
+
+
+
+/* normalizacion */
+
+.plegable .accordion-button {
+  background-color: #663F46;
+  color: #E8F7EE;
+  font-weight: 700;
+}
+
+.plegable .accordion-body {
+  background-color: #E8F7EE;
+}
+
+/*porque el acordeon de boostrap ta re bugueado y chupa divs cuando los abris */
+.plegable .accordion-body ul {
+  margin-bottom: 0;
+}
+
+
+
+/* funciones */
+
+.datos {
+  background-color: #E8F7EE;
+  border: 2px solid #663F46;
+  border-radius: 6px; /* redonde esquinas */
+  min-height: 300px;   /* altura minima */
+  padding: 15px 40px; /* margen interior   */
+}
+
+.datos h3 {
+  margin-bottom: 15px; 
+}
+
+.datos pre {
+  background-color: #3C362A;
+  color: #E8F7EE;
+  padding: 12px 15px;
+  border-radius: 4px;
+}
+
+
+
+
+
+/* joins */
+
+.fila {
+  display: flex; /* para ordenar los elemtos que estan adentro */
+  align-items: center;
+  gap: 30px; /* gap para la separacion entre los elemntos que estan adentro de otro */
+}
+
+/* hace que el texto ocupe el espacio del gap */
+.texto {
+  flex: 1;
+}
+
+
+.costado img {
+  max-width: 460px;
+  border: 3px solid #663F46;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.pie {
+  background-color: #3C362A;
+  color: #E8F7EE;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.escudo {
+  max-height: 70px;
+}
+
+
+.pie p {
+  flex: 1; /* hace que ocupe todo el espacio que no usan los otros div adentro del footer*/
+  text-align: center;
+}
+
+.pie .vinculo {
+  color: #E8F7EE;
+  text-decoration: underline;  /* subraya */
+}
+
