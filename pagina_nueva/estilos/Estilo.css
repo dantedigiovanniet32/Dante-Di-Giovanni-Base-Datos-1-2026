@@ -167,3 +167,66 @@ h2 {
   text-decoration: underline;  /* subraya */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hace responsive la pagina */
+
+/* a partir de que ancho empieza a funcionar */
+@media (max-width: 768px) {
+  .tramo {
+    padding: 30px 15px;
+  }
+
+  .fila {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .costado img, 
+  .costado.chico img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .datos {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .pie {
+    text-align: center;
+  }
+
+  .escudo {
+    margin: 0 auto 10px auto;
+  }
+
+  .pie .vinculo {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+
+
+
